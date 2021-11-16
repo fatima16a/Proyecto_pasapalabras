@@ -208,7 +208,7 @@ function definicion() {
 }
 
 definicion();
-
+/*
 function temporizador(id, inicio, final) {
     this.id = id;
     this.inicio = inicio;
@@ -222,7 +222,7 @@ function temporizador(id, inicio, final) {
         document.getElementById(this.id).innerHTML = this.conadorT--;
         setTimeout(this.conteoSegundos.bind(this), 1000);
     };
-    /*when*/
+    whe
 };
 let temporizadorr = new temporizador('caja4', 1200, 0);
-temporizadorr.conteoSegundos();
+temporizadorr.conteoSegundos();*/
