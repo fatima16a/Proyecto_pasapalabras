@@ -167,9 +167,9 @@ const palabras = [
     },
     {
         letra: "Y",
-        descr: "",
-        palabra: "",
-        contiene: false,
+        descr: "La teoría que triunfó durante parte del siglo XX con su defensa de la intervención del Estado en la economía. ",
+        palabra: "Keynesianismo",
+        contiene: true,
         comienza: false
     },
     {
