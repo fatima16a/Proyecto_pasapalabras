@@ -1,7 +1,6 @@
 body{
-  background: #1E9600;
-  background: -webkit-linear-gradient(to right, #FF0000, #FFF200, #1E9600);
-  background: linear-gradient(to right, #FF0000, #FFF200, #1E9600);
+  background-image: url('https://fotografias.lasexta.com/clipping/cmsimages02/2016/11/14/449AD414-13DE-42B8-A8BC-EF29009A3787/default.jpg?crop=706,397,x155,y0&width=1900&height=1069&optimize=low');
+  /*background-color: rgb(93, 193, 185);*/
   display: flex;
 
 }
@@ -23,12 +22,16 @@ body{
   width: 50%;
   margin: auto;
   margin-bottom: auto;  
-  display: flex;
   bottom: 100px;
   display: flex;
   flex-direction:column;
   justify-content: center;
   align-items: center;
+}
+
+#caja4{
+  display: flex;
+  float: left;
 }
 
 ul{
@@ -40,10 +43,9 @@ ul{
   width: 2.5em;
   height: 2.5em;
   border: 2px solid white;
-  border-radius: 50%;
-  background-color: #0f0c29;
-  background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
-  background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+  border-radius: 60%;
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Kegich.svg/341px-Kegich.svg.png');
+  /*background-color:	rgb(255, 0, 128);*/
   display: flex;
   justify-content: center;
   align-items: center;
@@ -55,8 +57,8 @@ ul{
 }
 
 .rojo{
-  background-color: rgb(255, 20, 20);
-  background: linear-gradient(to right, rgb(253, 93, 93), rgb(253, 57, 57), rgb(255, 20, 20));
+  background-color: rgb(172,43,55);
+  background: linear-gradient(to right, rgb(255, 0, 0), rgb(255, 5, 5), rgb(255, 10, 10));
 }
 
 .amarillo{
@@ -72,8 +74,8 @@ input{
 }
 
 button{
-  height: 25px;
-  background-color: teal;
+  height: 35px;
+  background-image: url('https://colorazul.top/wp-content/uploads/2021/06/azul-electrico-1024x769.jpg');
   border:2px solid black;
   color:white;
   border-radius: 10px;
