@@ -222,7 +222,7 @@ function temporizador(id, inicio, final) {
         document.getElementById(this.id).innerHTML = this.conadorT--;
         setTimeout(this.conteoSegundos.bind(this), 1000);
     };
-    when
+    /*when*/
 };
-let temporizador = new temporizador('caja4', 1200, 0);
-temporizador.conteoSegundos();
+let temporizadorr = new temporizador('caja4', 1200, 0);
+temporizadorr.conteoSegundos();
