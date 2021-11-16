@@ -76,7 +76,7 @@ const palabras = [
     },
     {
         letra: "L",
-        descr: "Pensamiento que va hacer el programa (falta completar)",
+        descr: "Pensamiento que va hacer el programa",
         palabra: "Logica",
         contiene: false,
         comienza: true
@@ -180,7 +180,7 @@ const palabras = [
         comienza: true
     }
 ];
-
+("respuestaUs").toLocaleLowerCase
 function verificarPalabra() {
     let resUser = document.getElementById("respuestaUs").value;
     if (resUser == palabras[contador].palabra) {
@@ -192,7 +192,8 @@ function verificarPalabra() {
 }
 
 function pasapalabra() {
-    
+    rosco.children[contador].classList.add("amarillo");
+    contador++;
 }
 
 function SumContador() {
@@ -207,3 +208,21 @@ function definicion() {
 }
 
 definicion();
+
+function temporizador(id, inicio, final) {
+    this.id = id;
+    this.inicio = inicio;
+    this.final = final;
+    this.conadorT = this.inicio;
+    this.conteoSegundos = function (){
+        if (this.conadorT == this.final) {
+            this.conteoSegundos = null;
+            return;
+        };
+        document.getElementById(this.id).innerHTML = this.conadorT--;
+        setTimeout(this.conteoSegundos.bind(this), 1000);
+    };
+    when
+};
+let temporizador = new temporizador('caja4', 1200, 0);
+temporizador.conteoSegundos();
