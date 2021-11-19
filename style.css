@@ -1,197 +1,210 @@
 body{
-  background-image: url('https://fotografias.lasexta.com/clipping/cmsimages02/2016/11/14/449AD414-13DE-42B8-A8BC-EF29009A3787/default.jpg?crop=706,397,x155,y0&width=1900&height=1069&optimize=low');
-  /*background-color: rgb(93, 193, 185);*/
-  display: flex;
-
-}
-
-.caja1{
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-}
-
-.caja2{
-  width: 50%;
-  height: 100%;
-  margin: auto;
-  justify-content:center ;
-}
-
-.caja3{
-  width: 50%;
-  margin: auto;
-  margin-bottom: auto;  
-  bottom: 100px;
-  display: flex;
-  flex-direction:column;
-  justify-content: center;
-  align-items: center;
-}
-
-#caja4{
-  display: flex;
-  float: left;
-}
-
-ul{
-  list-style-image: url(star.svg);
-}
-
-.item{
-  list-style: none;
-  width: 2.5em;
-  height: 2.5em;
-  border: 2px solid white;
-  border-radius: 60%;
-  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Kegich.svg/341px-Kegich.svg.png');
-  /*background-color:	rgb(255, 0, 128);*/
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white; 
-}
-.verde{
-  background-color: rgb(59, 255, 20);
-  background: linear-gradient(to right, rgb(120, 253, 93), rgb(90, 253, 57), rgb(59, 255, 20));
-}
-
-.rojo{
-  background-color: rgb(172,43,55);
-  background: linear-gradient(to right, rgb(255, 0, 0), rgb(255, 5, 5), rgb(255, 10, 10));
-}
-
-.amarillo{
-  background-color: rgb(255, 231, 20);
-  background: linear-gradient(to right, rgb(250, 253, 93), rgb(240, 253, 57), rgb(251, 255, 20));
-}
-
-input{
-  height: 20px;
-  border-radius: 10px;
-  border:2px solid black;
-  text-align: center;
-}
-
-button{
-  height: 35px;
-  background-image: url('https://colorazul.top/wp-content/uploads/2021/06/azul-electrico-1024x769.jpg');
-  border:2px solid black;
-  color:white;
-  border-radius: 10px;
-}
-
-.rosco{
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
-  padding: 0%;
-  display: flex;
-  justify-content: center;
-}
-
-
-.rosco>* {
-  position: absolute;
-  top: 50%;
-}
-
-.rosco>*:nth-of-type(1) {
-  transform: rotate(270deg) translate(13rem) rotate(-270deg);
-}
-
-.rosco>*:nth-of-type(2) {
-  transform: rotate(284.4deg) translate(13rem) rotate(-284.4deg);
-}
-
-.rosco>*:nth-of-type(3) {
-  transform: rotate(298.8deg) translate(13rem) rotate(-298.8deg);
-}
-
-.rosco>*:nth-of-type(4) {
-  transform: rotate(313.2deg) translate(13rem) rotate(-313.2deg);
-}
-
-.rosco>*:nth-of-type(5) {
-  transform: rotate(327.6deg) translate(13rem) rotate(-327.6deg);
-}
-
-.rosco>*:nth-of-type(6) {
-  transform: rotate(342deg) translate(13rem) rotate(-342deg);
-}
-
-.rosco>*:nth-of-type(7) {
-  transform: rotate(356.4deg) translate(13rem) rotate(-356.4deg);
-}
-
-.rosco>*:nth-of-type(8) {
-  transform: rotate(370.8deg) translate(13rem) rotate(-370.8deg);
-}
-
-.rosco>*:nth-of-type(9) {
-  transform: rotate(385.2deg) translate(13rem) rotate(-385.2deg);
-}
-
-.rosco>*:nth-of-type(10) {
-  transform: rotate(399.6deg) translate(13rem) rotate(-399.6deg);
-}
-
-.rosco>*:nth-of-type(11) {
-  transform: rotate(414deg) translate(13rem) rotate(-414deg);
-}
-
-.rosco>*:nth-of-type(12) {
-  transform: rotate(428.4deg) translate(13rem) rotate(-428.4deg);
-}
-
-.rosco>*:nth-of-type(13) {
-  transform: rotate(442.8deg) translate(13rem) rotate(-442.8deg);
-}
-
-.rosco>*:nth-of-type(14) {
-  transform: rotate(457.2deg) translate(13rem) rotate(-457.2deg);
-}
-
-.rosco>*:nth-of-type(15) {
-  transform: rotate(471.6deg) translate(13rem) rotate(-471.6deg);
-}
-
-.rosco>*:nth-of-type(16) {
-  transform: rotate(486deg) translate(13rem) rotate(-486deg);
-}
-
-.rosco>*:nth-of-type(17) {
-  transform: rotate(500.4deg) translate(13rem) rotate(-500.4deg);
-}
-
-.rosco>*:nth-of-type(18) {
-  transform: rotate(514.8deg) translate(13rem) rotate(-514.8deg);
-}
-
-.rosco>*:nth-of-type(19) {
-  transform: rotate(529.2deg) translate(13rem) rotate(-529.2deg);
-}
-
-.rosco>*:nth-of-type(20) {
-  transform: rotate(543.6deg) translate(13rem) rotate(-543.6deg);
-}
-
-.rosco>*:nth-of-type(21) {
-  transform: rotate(558deg) translate(13rem) rotate(-558deg);
-}
-
-.rosco>*:nth-of-type(22) {
-  transform: rotate(572.4deg) translate(13rem) rotate(-572.4deg);
-}
-
-.rosco>*:nth-of-type(23) {
-  transform: rotate(586.8deg) translate(13rem) rotate(-586.8deg);
-}
-
-.rosco>*:nth-of-type(24) {
-  transform: rotate(601.2deg) translate(13rem) rotate(-601.2deg);
-}
-
-.rosco>*:nth-of-type(25) {
-  transform: rotate(615.6deg) translate(13rem) rotate(-615.6deg);
-} 
+    background-image: url('https://colorazul.top/wp-content/uploads/2020/04/Azul-Celeste.jpg');
+    /*background-color: rgb(93, 193, 185);*/
+    display: flex;
+  
+  }
+  
+  .caja1{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+  }
+  
+  .caja2{
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    justify-content:center ;
+  }
+  
+  .caja3{
+    width: 50%;
+    margin: auto;
+    margin-bottom: auto;  
+    bottom: 100px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .caja4{
+    padding: 25%;
+    
+  }
+  
+  .item{
+    list-style: none;
+    width: 2.5em;
+    height: 2.5em;
+    border: 2px solid black;
+    border-radius: 60%;
+    background-image: url('https://biblioteca.acropolis.org/wp-content/uploads/2014/12/azul-1200x839.png');
+    /*background-color: rgb(255, 0, 128);*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black; 
+  }
+  .verde{
+    background-color: rgb(59, 255, 20);
+    background: linear-gradient(to right, rgb(120, 253, 93), rgb(90, 253, 57), rgb(59, 255, 20));
+  }
+  
+  .rojo{
+    background-color: rgb(172,43,55);
+    background: linear-gradient(to right, rgb(255, 0, 0), rgb(255, 5, 5), rgb(255, 10, 10));
+  }
+  
+  .amarillo{
+    background-color: rgb(255, 231, 20);
+    background: linear-gradient(to right, rgb(250, 253, 93), rgb(240, 253, 57), rgb(251, 255, 20));
+  }
+  
+  input{
+    height: 40px;
+    border-radius: 30px;
+    border:2px solid black;
+    text-align: center;
+  }
+  
+  /*button{
+    height: 50px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-bnizWdtFJOosBeb_G_CGX3RZZRTi4rLLsA&usqp=CAU');
+    border:2px solid black;
+    color:black;
+    border-radius: 40px;
+  }*/
+  
+  .enviar{
+    height: 50px;
+    background-image: url('http://www.colores.org.es/imagenes_colores/pera.jpg');
+    border:2px solid black;
+    color:black;
+    border-radius: 40px;
+  }
+  
+  .Pasapalabra{
+    height: 50px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-bnizWdtFJOosBeb_G_CGX3RZZRTi4rLLsA&usqp=CAU');
+    border:2px solid black;
+    color:black;
+    border-radius: 40px;
+  }
+  
+  .rosco{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    padding: 10%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  
+  
+  .rosco>* {
+    position: absolute;
+    top: 50%;
+  }
+  
+  .rosco>*:nth-of-type(1) {
+    transform: rotate(270deg) translate(13rem) rotate(-270deg);
+  }
+  
+  .rosco>*:nth-of-type(2) {
+    transform: rotate(284.4deg) translate(13rem) rotate(-284.4deg);
+  }
+  
+  .rosco>*:nth-of-type(3) {
+    transform: rotate(298.8deg) translate(13rem) rotate(-298.8deg);
+  }
+  
+  .rosco>*:nth-of-type(4) {
+    transform: rotate(313.2deg) translate(13rem) rotate(-313.2deg);
+  }
+  
+  .rosco>*:nth-of-type(5) {
+    transform: rotate(327.6deg) translate(13rem) rotate(-327.6deg);
+  }
+  
+  .rosco>*:nth-of-type(6) {
+    transform: rotate(342deg) translate(13rem) rotate(-342deg);
+  }
+  
+  .rosco>*:nth-of-type(7) {
+    transform: rotate(356.4deg) translate(13rem) rotate(-356.4deg);
+  }
+  
+  .rosco>*:nth-of-type(8) {
+    transform: rotate(370.8deg) translate(13rem) rotate(-370.8deg);
+  }
+  
+  .rosco>*:nth-of-type(9) {
+    transform: rotate(385.2deg) translate(13rem) rotate(-385.2deg);
+  }
+  
+  .rosco>*:nth-of-type(10) {
+    transform: rotate(399.6deg) translate(13rem) rotate(-399.6deg);
+  }
+  
+  .rosco>*:nth-of-type(11) {
+    transform: rotate(414deg) translate(13rem) rotate(-414deg);
+  }
+  
+  .rosco>*:nth-of-type(12) {
+    transform: rotate(428.4deg) translate(13rem) rotate(-428.4deg);
+  }
+  
+  .rosco>*:nth-of-type(13) {
+    transform: rotate(442.8deg) translate(13rem) rotate(-442.8deg);
+  }
+  
+  .rosco>*:nth-of-type(14) {
+    transform: rotate(457.2deg) translate(13rem) rotate(-457.2deg);
+  }
+  
+  .rosco>*:nth-of-type(15) {
+    transform: rotate(471.6deg) translate(13rem) rotate(-471.6deg);
+  }
+  
+  .rosco>*:nth-of-type(16) {
+    transform: rotate(486deg) translate(13rem) rotate(-486deg);
+  }
+  
+  .rosco>*:nth-of-type(17) {
+    transform: rotate(500.4deg) translate(13rem) rotate(-500.4deg);
+  }
+  
+  .rosco>*:nth-of-type(18) {
+    transform: rotate(514.8deg) translate(13rem) rotate(-514.8deg);
+  }
+  
+  .rosco>*:nth-of-type(19) {
+    transform: rotate(529.2deg) translate(13rem) rotate(-529.2deg);
+  }
+  
+  .rosco>*:nth-of-type(20) {
+    transform: rotate(543.6deg) translate(13rem) rotate(-543.6deg);
+  }
+  
+  .rosco>*:nth-of-type(21) {
+    transform: rotate(558deg) translate(13rem) rotate(-558deg);
+  }
+  
+  .rosco>*:nth-of-type(22) {
+    transform: rotate(572.4deg) translate(13rem) rotate(-572.4deg);
+  }
+  
+  .rosco>*:nth-of-type(23) {
+    transform: rotate(586.8deg) translate(13rem) rotate(-586.8deg);
+  }
+  
+  .rosco>*:nth-of-type(24) {
+    transform: rotate(601.2deg) translate(13rem) rotate(-601.2deg);
+  }
+  
+  .rosco>*:nth-of-type(25) {
+    transform: rotate(615.6deg) translate(13rem) rotate(-615.6deg);
+  } 
