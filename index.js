@@ -7,7 +7,7 @@ let palabras = [
     {
 
         letra: "A",
-        descr: "La necesitamos cuando tenemos que esperar un determinado suceso que demora en ejecutarse, y se necesita para acceder a una api.",
+        descr: "Comienza con A: La necesitamos cuando tenemos que esperar un determinado suceso que demora en ejecutarse, y se necesita para acceder a una api.",
         palabra: "Asincronia",
         contiene: false,
         empieza: true,
@@ -16,7 +16,7 @@ let palabras = [
     },
     {
         letra: "B",
-        descr: "Se encarga de que toda la lógica de una página web funcione, es el desarrollo del elemento web que no vemos.",
+        descr: "Comienza con B:Se encarga de que toda la lógica de una página web funcione, es el desarrollo del elemento web que no vemos.",
         palabra: "Backend",
         contiene: false,
         empieza: true,
@@ -24,7 +24,7 @@ let palabras = [
     },
     {
         letra: "C",
-        descr: "Indica elementos de una entidad, pueden asociarse a elementos de la otra entidad relacionada.",
+        descr: "Comienza con C: Indica elementos de una entidad, pueden asociarse a elementos de la otra entidad relacionada.",
         palabra: "Cardinalidad",
         contiene: false,
         empieza: true,
@@ -32,7 +32,7 @@ let palabras = [
     },
     {
         letra: "D",
-        descr: "Contiene todas o una parte de las tablas presentes en la base de datos.",
+        descr: "comienza con D: Contiene todas o una parte de las tablas presentes en la base de datos.",
         palabra: "Diagrama",
         contiene: false,
         empieza: true,
@@ -41,7 +41,7 @@ let palabras = [
     },
     {
         letra: "E",
-        descr: "Tiene atributos y relaciones, corresponde a una o varias tablas relacionadas en la base de datos.",
+        descr: "Comienza con E: Atributos y relaciones, corresponde a una o varias tablas relacionadas en la base de datos.",
         palabra: "Entidad",
         contiene: false,
         empieza: true,
@@ -49,7 +49,7 @@ let palabras = [
     },
     {
         letra: "F",
-        descr: "Identifica una columna o un grupo de columnas en una tabla que se refiere a las columnas en otra tabla.",
+        descr: "Dos palabras, comienza con F: Identifica una columna o un grupo de columnas en una tabla que se refiere a las columnas en otra tabla.",
         palabra: "Foreign Key",
         contiene: false,
         empieza: true,
@@ -57,7 +57,7 @@ let palabras = [
     },
     {
         letra: "G",
-        descr: "Página para alojar proyectos, se utiliza principalmente para la creación de código fuente de programas de ordenador.",
+        descr: "Comienza con G: Página para alojar proyectos, se utiliza principalmente para la creación de código fuente de programas de ordenador.",
         palabra: "Github",
         contiene: false,
         empieza: true,
@@ -65,7 +65,7 @@ let palabras = [
     },
     {
         letra: "H",
-        descr: "Cuando las entidades hijos, se les transmite los atributos de la entidad padre.",
+        descr: "comienza con H: Cuando las entidades hijos, se les transmite los atributos de la entidad padre.",
         palabra: "Herencia",
         contiene: false,
         empieza: true,
@@ -73,7 +73,7 @@ let palabras = [
     },
     {
         letra: "I",
-        descr: "Es  generalmente un directorio en un orden específico que se utiliza con fines de orientación. Es el listado de páginas web que es emitido por el motor de búsqueda en respuesta a una solicitud de búsqueda del usuario.",
+        descr: "Comienza con I: Es  generalmente un directorio en un orden específico que se utiliza con fines de orientación. Es el listado de páginas web que es emitido por el motor de búsqueda en respuesta a una solicitud de búsqueda del usuario.",
         palabra: "Index",
         contiene: false,
         comienza: true,
@@ -81,15 +81,15 @@ let palabras = [
     },
     {
         letra: "J",
-        descr: "Lenguaje de programación interpretado, dialecto del estándar ECMAScript. Se define como orientado a objetos,  basado en prototipos, imperativo, débilmente tipado y dinámico.",
-        palabra: "JavaScript",
+        descr: "Comienza con J: Lenguaje de programación interpretado, dialecto del estándar ECMAScript. Se define como orientado a objetos,  basado en prototipos, imperativo, débilmente tipado y dinámico.",
+        palabra: "Javascript",
         contiene: false,
         comienza: true,
         posicion: 9
     },
     {
         letra: "L",
-        descr: "Pensamiento que va hacer el programa",
+        descr: "Comienza con L: Pensamiento que va hacer el programa",
         palabra: "Logica",
         contiene: false,
         comienza: true,
@@ -97,7 +97,7 @@ let palabras = [
     },
     {
         letra: "M",
-        descr: "Se encarga de arreglar el tipo de datos de columna y arreglar  restricciones de columna",
+        descr: "Comienza con M: Se encarga de arreglar el tipo de datos de columna y arreglar  restricciones de columna",
         palabra: "Modify",
         contiene: false,
         comienza: true,
@@ -105,7 +105,7 @@ let palabras = [
     },
     {
         letra: "N",
-        descr: "Es el proceso de elaborar, aplicar y mejorar las normas que se emplean en distintas actividades, con el fin de ordenarlas y mejorarlas.",
+        descr: "Comienza con N: Es el proceso de elaborar, aplicar y mejorar las normas que se emplean en distintas actividades, con el fin de ordenarlas y mejorarlas.",
         palabra: "Normalizacion",
         contiene: false,
         comienza: true,
@@ -113,7 +113,7 @@ let palabras = [
     },
     {
         letra: "Ñ",
-        descr: "Área enfocada en el desarrollo de interfaces digitales, como el boceto  de sitios y aplicaciones para web",
+        descr: "Dos palabras, contiene Ñ: Área enfocada en el desarrollo de interfaces digitales, como el boceto  de sitios y aplicaciones para web",
         palabra: "Diseño Web",
         contiene: true,
         comienza: false,
@@ -121,7 +121,7 @@ let palabras = [
     },
     {
         letra: "O",
-        descr: "Es un número en base 8 que especifique el permiso. Los números en este modo se especifican empezando el número por un 0.",
+        descr: "Comenza con O: Es un número en base 8 que especifique el permiso. Los números en este modo se especifican empezando el número por un 0.",
         palabra: "Octal",
         contiene: false,
         comienza: true,
@@ -129,7 +129,7 @@ let palabras = [
     },
     {
         letra: "P",
-        descr: "Es el proceso utilizado para idear y ordenar las acciones necesarias para realizar un proyecto, en la actualidad, la noción de esta se encuentra muy asociada a la creación de aplicaciones de informática y videojuegos.",
+        descr: "Comiemza con P: Es el proceso utilizado para idear y ordenar las acciones necesarias para realizar un proyecto, en la actualidad, la noción de esta se encuentra muy asociada a la creación de aplicaciones de informática y videojuegos.",
         palabra: "Programacion",
         contiene: false,
         comienza: true, 
@@ -138,7 +138,7 @@ let palabras = [
     },
     {
         letra: "Q",
-        descr: "Término que el usuario escribe en un buscador, como por ejemplo Google, cuando desea realizar una búsqueda utilizando Keywords o palabras clave.",
+        descr: "Comienza con Q: Término que el usuario escribe en un buscador, como por ejemplo Google, cuando desea realizar una búsqueda utilizando Keywords o palabras clave.",
         palabra: "Query",
         contiene: false,
         comienza: true,
@@ -146,7 +146,7 @@ let palabras = [
     },
     {
         letra: "R",
-        descr: "Biblioteca Javascript de código abierto diseñada para crear interfaces de usuario con el objetivo de facilitar el desarrollo de aplicaciones en una sola página.",
+        descr: "Comienza con R: Biblioteca Javascript de código abierto diseñada para crear interfaces de usuario con el objetivo de facilitar el desarrollo de aplicaciones en una sola página.",
         palabra: "React",
         contiene: false,
         comienza: true,
@@ -154,7 +154,7 @@ let palabras = [
     },
     {
         letra: "S",
-        descr: "Es una etiqueta que permite definir una hoja de estilos interna en un documento",
+        descr: "Comienza con S: Es una etiqueta que permite definir una hoja de estilos interna en un documento",
         palabra: "Syle",
         contiene: false,
         comienza: true,
@@ -162,7 +162,7 @@ let palabras = [
     },
     {
         letra: "T",
-        descr: "Conjunto de elementos o partes que forman un todo.",
+        descr: "comienza con T: Conjunto de elementos o partes que forman un todo.",
         palabra: "Totalidad",
         contiene: false,
         comienza: true,
@@ -170,7 +170,7 @@ let palabras = [
     },
     {
         letra: "U",
-        descr: "Es un lenguaje visual para especificar, construir y documentar los artefactos de los sistemas.",
+        descr: "Comenza con U: Es un lenguaje visual para especificar, construir y documentar los artefactos de los sistemas.",
         palabra: "UML",
         contiene: false,
         comienza: true,
@@ -178,7 +178,7 @@ let palabras = [
     },
     {
         letra: "V",
-        descr: "Es un editor de código fuente, Incluye soporte para la depuración, control integrado de Git, resaltado de sintaxis, finalización inteligente de código, fragmentos y refactorización de código",
+        descr: "Tres palabras, comienza con V: Es un editor de código fuente, Incluye soporte para la depuración, control integrado de Git, resaltado de sintaxis, finalización inteligente de código, fragmentos y refactorización de código",
         palabra: "Visual Studio Code",
         contiene: false,
         comienza: true,
@@ -186,7 +186,7 @@ let palabras = [
     },
     {
         letra: "X",
-        descr: " Consiste principalmente en el sistema de gestión de bases de datos MySQL, el servidor web Apache y los intérpretes para lenguajes de script PHP y Perl",
+        descr: " Comienza con X: Consiste principalmente en el sistema de gestión de bases de datos MySQL, el servidor web Apache y los intérpretes para lenguajes de script PHP y Perl",
         palabra: "Xampp",
         contiene: false,
         comienza: true,
@@ -194,7 +194,7 @@ let palabras = [
     },
     {
         letra: "Y",
-        descr: "La teoría que triunfó durante parte del siglo XX con su defensa de la intervención del Estado en la economía. ",
+        descr: "Contiene Y: La teoría que triunfó durante parte del siglo XX con su defensa de la intervención del Estado en la economía. ",
         palabra: "Keynesianismo",
         contiene: true,
         comienza: false,
@@ -202,7 +202,7 @@ let palabras = [
     },
     {
         letra: "Z",
-        descr: "Indica el orden de un elemento posicionado y sus descendientes. Cuando varios elementos se superponen, los elementos con mayor valor, cubren aquellos con menor valor.",
+        descr: "Dos palabras, comienza con Z: Indica el orden de un elemento posicionado y sus descendientes. Cuando varios elementos se superponen, los elementos con mayor valor, cubren aquellos con menor valor.",
         palabra: "Z index",
         contiene: false,
         comienza: true,
