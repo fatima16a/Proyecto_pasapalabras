@@ -30,8 +30,20 @@ body{
   }
   
   .caja4{
-    padding: 25%;
-    
+    float: left;
+    list-style: none;
+    width: 2.5em;
+    height: 2.5em;
+    border: 2px solid black;
+    border-radius: 60%;
+    background-image: url(https://pimmedia.egger.com/l/decor/U630_9/s/Detail/f/881x513/8812251447326);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
   }
   
   .item{
